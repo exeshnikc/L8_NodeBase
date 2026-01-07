@@ -1,0 +1,23 @@
+{
+  "name": "l8-nodebase",
+  "version": "1.0.0",
+  "description": "Лабораторная работа 8: Основы Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js dotenv_config_path=.env.development",
+    "build": "node -r dotenv/config index.js dotenv_config_path=.env.production",
+    "deploy": "node -r dotenv/config index.js dotenv_config_path=.env.domain",
+    "dev": "nodemon -r dotenv/config index.js dotenv_config_path=.env.development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nodejs", "lab", "university"],
+  "author": "Ваше Имя",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "bcrypt": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}

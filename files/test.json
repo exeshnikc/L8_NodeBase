@@ -1,0 +1,6 @@
+{
+  "name": "Test File",
+  "version": "1.0.0",
+  "data": [1, 2, 3, 4, 5],
+  "description": "This is a test JSON file for demonstration"
+}
